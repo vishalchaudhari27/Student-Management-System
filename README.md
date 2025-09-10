@@ -13,3 +13,6 @@ A simple Spring Boot application to manage student records with CRUD operations.
 - Maven project structure
 
 
+![Home Page](assets/)
+![Add Employee](assets/"D:\Documents\image\add student.png")
+![Employee List](assets/list.png)
