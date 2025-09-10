@@ -1,0 +1,29 @@
+# Eclipse specific
+.classpath
+.project
+.settings/
+/bin/
+
+# IntelliJ IDEA (optional)
+.idea/
+*.iml
+
+# Maven build output
+/target/
+/target.classes/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary / backup files
+*.tmp
+*.bak
+
+# Maven wrapper (optional)
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
