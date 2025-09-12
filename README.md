@@ -32,6 +32,7 @@ The system allows users to view the student list, add a new student, update stud
 * Student List Page
 * Add Student Form
 * Update Student Form
+* Delete Student 
 
 ---
 
