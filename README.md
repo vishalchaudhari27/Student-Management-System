@@ -30,6 +30,9 @@ The system allows users to view the student list, add a new student, update stud
 ## 📷 Snapshots (Replace with your project images)
 
 * Student List Page
+
+  <img width="1883" height="892" alt="student list" src="https://github.com/user-attachments/assets/7f5b1891-bc77-49f2-9458-65735a6d5e9f" />
+
 * Add Student Form
 * Update Student Form
 * Delete Student 
