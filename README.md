@@ -20,14 +20,14 @@ The system allows users to view the student list, add a new student, update stud
 
 ## 🛠️ Tech Stack
 
-* **Backend:** Java, Hibernate, Spring Boot, MVC
-* **Frontend:** Thymeleaf, Bootstrap, HTML, CSS, JavaScript
+* **Backend:** Java, Hibernate, Spring Boot, Spring MVC
+* **Frontend:** Thymeleaf, Bootstrap, HTML, CSS
 * **Database:** MySQL
 
 
 ---
 
-## 📷 Snapshots (Replace with your project images)
+## 📷 Snapshots
 
 * Student List Page
 
