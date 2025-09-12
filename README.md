@@ -1,65 +1,88 @@
-# Students Management System
+# 🎓 Student Management System
 
-A simple Spring Boot application to manage student records with CRUD operations.
+## 📌 Introduction
+
+This is a **Student Management System** project built using **Java, Hibernate, Spring Boot, MVC, Bootstrap, MySQL, and Thymeleaf**. It is a simple **CRUD (Create, Read, Update, Delete)** application that manages student records in a clean and user-friendly way.
+
+The system allows users to view the student list, add a new student, update student information, and delete students directly from the interface.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Add, edit, delete, and view students
-- RESTful endpoints using Spring Boot
-- Thymeleaf templates for frontend
-- MySQL database integration
-- Maven project structure
+* **Student List View** → Displays all students with their details (First Name, Last Name, Email).
+* **Add Student** → Button on the top of the list opens a form to create a new student. On submit, the student is added to the list.
+* **Update Student** → Each student row has an **Update** button. Clicking it opens a form with pre-filled student details. After editing and submitting, the updated information is saved and the user is redirected to the student list.
+* **Delete Student** → Each student row also has a **Delete** button. Clicking it deletes the student instantly from the database without opening any form.
+* **Clean UI** using **Bootstrap** and **Thymeleaf templates**.
 
+---
 
-![Home Page](assets/)
-![Add Employee](assets/"D:\Documents\image\add student.png")
-![Employee List](assets/list.png)
-# Factory-Stock-Checking-and-Billing-System
+## 🛠️ Tech Stack
 
-Hello Visitor!   
-This is Factory Stock Checking and Billing System that means a Inventory MANAGEMENT project built in Python Tkinter. The project has been built by taking reference from other Project. The Project has been developed as fourth semester project in SYBCA with a classmate [Ramakant Chaudhari](https://github.com/Ramakant2124).
+* **Backend:** Java, Spring Boot, Hibernate, MVC
+* **Frontend:** Thymeleaf, Bootstrap
+* **Database:** MySQL
 
-## Introduction to Project:
-This project is aimed at developing a desktop-based application named Factory Stock Checking and Billing System for managing the stock system of any organization. Factory Stock Checking and Billing System has been developed so that the user finds it extremely easy to use and requires minimum effort to use this software. Our software can be completely customized as per your specific needs. It based on minimal data entry, auto entry of prices as per item selected and auto calculation, and report of all Products availability and their Quantities. This system can be used to store the details of the stock, stock maintenance, update the stock based on the sales details, and generate sales and stock report daily
+---
 
-## Snapshots
-____________________________________________________________________________________________________________________________________________________________________
+## ⚙️ Setup Instructions
 
-<ins>Login Page:</ins>
-![image](https://github.com/user-attachments/assets/f3c1b9ed-813a-417f-a9e5-beed31a20d45)
+### 1️⃣ Prerequisites
 
-<ins>Dashboard Page:</ins>
-![image](https://github.com/user-attachments/assets/b48ddc16-8b89-43ac-b699-b511ba4fd836)
+Make sure you have installed:
 
-<ins>Add Employee:</ins>
-![image](https://github.com/user-attachments/assets/de99eaf0-38cd-4f46-9fbd-65368ec0c965)
+* [Java JDK 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+* [Maven](https://maven.apache.org/)
+* [MySQL Server](https://dev.mysql.com/downloads/)
+* Any IDE (IntelliJ IDEA / Eclipse / STS recommended)
 
-<ins>Supplier Detail:</ins>
-![image](https://github.com/user-attachments/assets/0d729e0c-eeac-48c0-87f5-4caf286857b0)
+### 2️⃣ Clone the Repository
 
-<ins>Add Category:</ins>
-![image](https://github.com/user-attachments/assets/5595c2ec-6d8e-4cee-a893-d62d5ba49e21)
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
 
-<ins>Product Details:</ins>
-![image](https://github.com/user-attachments/assets/5e303eb8-502f-4b17-a50f-b91978526a06)
+### 3️⃣ Database Setup
 
-<ins>Add Billing Page:</ins>
-![image](https://github.com/user-attachments/assets/3c90b20f-e79a-4f7d-8d66-a165d4171952)
+* Create a MySQL database (example: `student_db`).
+* Update your **`application.properties`** file with DB credentials:
 
-<ins>View Billing Page:</ins>
-![image](https://github.com/user-attachments/assets/8f925435-295e-4065-8a27-7fbb14473b59)
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/student_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
 
+### 4️⃣ Run the Project
 
+Use Maven to build and run:
 
+```bash
+mvn spring-boot:run
+```
 
+Or run the project directly from your IDE.
 
+### 5️⃣ Access in Browser
 
+Open: [http://localhost:8080/students](http://localhost:8080/students)
 
+---
 
+## 📷 Snapshots (Replace with your project images)
 
+* Student List Page
+* Add Student Form
+* Update Student Form
 
+---
 
+## 📝 Summary
 
+This project is a simple and efficient CRUD-based web application for managing student records. It demonstrates the use of **Spring Boot + Hibernate** with a **MySQL database**, styled with **Bootstrap** and **Thymeleaf** for the front-end. It’s ideal for beginners to understand how CRUD operations work in a full-stack Java application.
 
+---
