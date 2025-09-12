@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-This is a **Student Management System** project built using **Java, Hibernate, Spring Boot, MVC, Bootstrap, MySQL, and Thymeleaf**. It is a simple **CRUD (Create, Read, Update, Delete)** application that manages student records in a clean and user-friendly way.
+This is a **Student Management System** project built using **Java, Hibernate, Spring Boot, Spring MVC, Bootstrap, HTML, CSS, MySQL, and Thymeleaf**. It is a simple **CRUD (Create, Read, Update, Delete)** application that manages student records in a clean and user-friendly way.
 
 The system allows users to view the student list, add a new student, update student information, and delete students directly from the interface.
 
