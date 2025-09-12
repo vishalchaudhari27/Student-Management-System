@@ -24,52 +24,6 @@ The system allows users to view the student list, add a new student, update stud
 * **Frontend:** Thymeleaf, Bootstrap
 * **Database:** MySQL
 
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Prerequisites
-
-Make sure you have installed:
-
-* [Java JDK 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-* [Maven](https://maven.apache.org/)
-* [MySQL Server](https://dev.mysql.com/downloads/)
-* Any IDE (IntelliJ IDEA / Eclipse / STS recommended)
-
-### 2️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-### 3️⃣ Database Setup
-
-* Create a MySQL database (example: `student_db`).
-* Update your **`application.properties`** file with DB credentials:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-### 4️⃣ Run the Project
-
-Use Maven to build and run:
-
-```bash
-mvn spring-boot:run
-```
-
-Or run the project directly from your IDE.
-
-### 5️⃣ Access in Browser
-
-Open: [http://localhost:8080/students](http://localhost:8080/students)
 
 ---
 
