@@ -34,8 +34,16 @@ The system allows users to view the student list, add a new student, update stud
   <img width="1883" height="892" alt="student list" src="https://github.com/user-attachments/assets/7f5b1891-bc77-49f2-9458-65735a6d5e9f" />
 
 * Add Student Form
+
+  <img width="1883" height="887" alt="add student" src="https://github.com/user-attachments/assets/bfd81766-b317-4394-b417-fdff1003d72f" />
+
 * Update Student Form
-* Delete Student 
+
+  <img width="1878" height="900" alt="update student" src="https://github.com/user-attachments/assets/209e06e0-5a7c-4518-b09c-1a8b5678b4f3" />
+
+* Delete Student
+
+  <img width="1883" height="875" alt="delete student" src="https://github.com/user-attachments/assets/7d6f8c6c-d2a9-44c8-9ef5-a17bebde43b3" />
 
 ---
 
