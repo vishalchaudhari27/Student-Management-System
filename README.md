@@ -52,3 +52,4 @@ The system allows users to view the student list, add a new student, update stud
 This project is a simple and efficient CRUD-based web application for managing student records. It demonstrates the use of **Spring Boot + Hibernate** with a **MySQL database**, styled with **Bootstrap** and **Thymeleaf** for the front-end. It’s ideal for beginners to understand how CRUD operations work in a full-stack Java application.
 
 ---
+https://vishalchaudhari27.github.io/Student-Management-System/
