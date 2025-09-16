@@ -31,7 +31,11 @@ The system allows users to view the student list, add a new student, update stud
 
 * Student List Page
 
-  <img width="1883" height="892" alt="student list" src="https://github.com/user-attachments/assets/7f5b1891-bc77-49f2-9458-65735a6d5e9f" />
+<img 
+    src="https://github.com/user-attachments/assets/7f5b1891-bc77-49f2-9458-65735a6d5e9f" 
+    alt="student list" 
+    style="width: 100%; height: auto; max-width: 1883px;" 
+/>
 
 * Add Student Form
 
