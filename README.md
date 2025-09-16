@@ -55,8 +55,7 @@ This project is a simple and efficient CRUD-based web application for managing s
 
 
 ## 🌐 Live Demo
-👉 [Play Here]https://vishalchaudhari27.github.io/Student-Management-System/
-)
+👉 [Play Here][https://vishalchaudhari27.github.io/Student-Management-System/]
 
 ---
 
